@@ -57,9 +57,10 @@ export default {
             ],
             GridStyle: {
                 'display': 'grid',
-                'grid-template-columns': 'auto auto auto',                
-                'padding': '10px'
-                 
+                'grid-template-columns': 'repeat(auto-fill,minmax(20rem, 1fr))',                
+                'padding': '0 5rem',
+                'margin': '5rem auto',
+                'max-width': '80rem'                 
             },
             ListStyle: {
                 'display': 'grid',
@@ -90,6 +91,7 @@ export default {
     height: 20vh;    
     padding-top: 60px;
     margin: 10px; 
+    border-radius: 0.75rem;
     background-color: white; 
     box-shadow: 10px 10px 20px grey;  
 }
